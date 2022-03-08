@@ -1,0 +1,34 @@
+name: teste
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_modular: ^4.4.0+1
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: FontAwesome
+      fonts:
+        - asset: assets/fonts/Font-Awesome-Light.ttf
+          weight: 300
+    - family: FontAwesomeSolid
+      fonts:
+        - asset: assets/fonts/Font-Awesome-Solid.ttf
+          weight: 900
+    - family: FontAwesomeRegular
+      fonts:
+        - asset: assets/fonts/Font-Awesome-Regular.ttf
+          weight: 400
